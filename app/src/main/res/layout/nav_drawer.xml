@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/home"
+android:layout_marginStart="12dp"
+android:layout_marginTop="12dp"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"
+    android:text="Home"
+    android:textSize="20sp"
+    android:fontFamily="@font/gotham"
+    android:drawableLeft="@drawable/baseline_home_24"
+    android:drawablePadding="8dp"/>
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/library"
+android:layout_marginStart="12dp"
+android:layout_marginTop="12dp"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@drawable/baseline_library_music_24"
+    android:drawablePadding="8dp"
+    android:text="Library"
+    android:fontFamily="@font/gotham"
+    android:textColor="@color/white"
+    android:textSize="20sp" />
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/playlist"
+android:layout_marginStart="12dp"
+android:layout_marginTop="12dp"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@drawable/baseline_favorite_24"
+    android:drawablePadding="8dp"
+    android:text="Favourite"
+    android:textColor="@color/white"
+    android:fontFamily="@font/gotham"
+    android:textSize="20sp" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/statistic"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Statistics"
+            android:textSize="20sp"
+            android:fontFamily="@font/gotham"
+            android:drawableLeft="@drawable/baseline_stacked_bar_chart_24"
+        android:drawablePadding="8dp"/>
+    </LinearLayout>
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/settings"
+android:layout_marginStart="12dp"
+android:layout_marginTop="12dp"
+android:orientation="horizontal">
+
+
+</LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/white" />
+
+    <LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/logout"
+android:layout_marginStart="12dp"
+android:layout_marginTop="12dp"
+android:orientation="horizontal"/>
+
+    </LinearLayout>
